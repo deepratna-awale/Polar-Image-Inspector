@@ -62,7 +62,7 @@ The [Polar Image Parser](Wamos2/polar_image.py) can be used independently using 
 from Wamos2.polar_image import PolarImage
 
 polarImage = PolarImage('path/to/polar_image.pol')
-polarImage.render(orient True, toggle_direction = True)
+polarImage.render(orient = True, toggle_direction = True)
 
 # All header attributes can be accesed as follows
 # polarImage.get('Atribute'), the header stores attribute keys in upper case like the metadata in POL files, however you do not need to capitalize the attribute when passing to .get() function
@@ -92,12 +92,12 @@ The default image extension is `.png`
 ---
 
 # Example Image Extracted
-![Polar Image File](Output\0428_1400\20160428140000ocm.png)
+![Polar Image File](Output/0428_1400/20160428140000ocm.png)
 
 ---
 
 # GUI Preview (Supports Dark Mode now!)
-![GUI Dark Mode](Data\Generated\GUI_Preview.png)
+![GUI Dark Mode](Data/Generated/GUI_Preview.png)
 
 ---
 
